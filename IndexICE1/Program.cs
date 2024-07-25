@@ -7,7 +7,7 @@ namespace IndexICE1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
             Player player1 = new Player(10, 104, "DianaMagus22","Warlock", "Half Elf", "Astrid");
 
             Console.WriteLine(player1[0]);
@@ -15,6 +15,8 @@ namespace IndexICE1
             Console.WriteLine(player1[2]);
             Console.WriteLine(player1[3]);
             Console.WriteLine(player1[4]);
+
+            Console.WriteLine("");
 
 
             Console.WriteLine("Player Tag: " + player1["playertag"]);

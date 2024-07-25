@@ -42,17 +42,6 @@ namespace TestProject1
 
         }
 
-        [TestMethod]
-        public void TestMethod5()
-        {
-            Player player1 = new Player(10, 104, "DianaMagus22", "Warlock", "Half Elf", "Astrid");
-
-
-            string characterRace = "Half Elf";
-
-            Assert.AreEqual(player1[4], characterRace);
-
-        }
 
         [TestMethod]
         public void TestMethod4()
@@ -63,6 +52,18 @@ namespace TestProject1
             string characterClass = "Warlock";
 
             Assert.AreEqual(player1[3], characterClass);
+
+        }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            Player player1 = new Player(10, 104, "DianaMagus22", "Warlock", "Half Elf", "Astrid");
+
+
+            string characterRace = "Half Elf";
+
+            Assert.AreEqual(player1[4], characterRace);
 
         }
     }
