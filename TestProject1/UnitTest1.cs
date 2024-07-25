@@ -14,7 +14,7 @@ namespace TestProject1
 
             int levle = 10;
 
-            Assert.Equals(player1[0], levle);
+            Assert.AreEqual(player1[0], levle);
             
         }
 
@@ -26,7 +26,7 @@ namespace TestProject1
 
             int health = 104;
 
-            Assert.Equals(player1[1], health);
+            Assert.AreEqual(player1[1], health);
 
         }
 
@@ -38,7 +38,7 @@ namespace TestProject1
 
             string playerTag = "DianaMagus22";
 
-            Assert.Equals(player1[2], playerTag);
+            Assert.AreEqual(player1[2], playerTag);
 
         }
 
@@ -50,7 +50,7 @@ namespace TestProject1
 
             string characterRace = "Half Elf";
 
-            Assert.Equals(player1[4], characterRace);
+            Assert.AreEqual(player1[4], characterRace);
 
         }
 
@@ -62,7 +62,7 @@ namespace TestProject1
 
             string characterClass = "Warlock";
 
-            Assert.Equals(player1[3], characterClass);
+            Assert.AreEqual(player1[3], characterClass);
 
         }
     }
