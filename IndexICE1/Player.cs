@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IndexICE1
 {
-    internal class Player
+    public class Player
     {
         int Health, Level;
         string PlayerTag, CharacterClass, CharacterRace, CharacterName; //dont have direct acess to these varibles
