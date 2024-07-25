@@ -10,9 +10,9 @@ namespace IndexICE1
             
             Player player1 = new Player(10, 104, "DianaMagus22","Warlock", "Half Elf", "Astrid");
 
+            Console.WriteLine(player1[2]);
             Console.WriteLine(player1[0]);
             Console.WriteLine(player1[1]);
-            Console.WriteLine(player1[2]);
             Console.WriteLine(player1[3]);
             Console.WriteLine(player1[4]);
 
